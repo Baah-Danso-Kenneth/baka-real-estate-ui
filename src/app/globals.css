@@ -3,4 +3,9 @@
 @tailwind utilities;
 
 
-
+@layer utilities{
+  .list-item{
+    color: '#fff';
+    font-weight: bolder;
+  }
+}
